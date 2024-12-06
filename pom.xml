@@ -168,6 +168,13 @@
             <scope>runtime</scope>
             <optional>true</optional>
         </dependency>
+		<!-- Added dependency start -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-cache</artifactId>
+		</dependency>
+
+		<!-- Added dependency end -->
 
         <!-- Test dependencies -->
         <dependency>

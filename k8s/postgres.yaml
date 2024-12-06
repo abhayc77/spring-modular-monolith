@@ -6,8 +6,8 @@ spec:
   selector:
     app: spring-modular-monolith-postgres-pod
   ports:
-    - port: 5432
-      targetPort: 5432
+    - port: 5434
+      targetPort: 5434
 ---
 apiVersion: apps/v1
 kind: Deployment
@@ -29,7 +29,7 @@ spec:
           image: "postgres:17-alpine"
           ports:
             - name: postgres
-              containerPort: 5432
+              containerPort: 5434
           env:
             - name: POSTGRES_USER
               value: postgres

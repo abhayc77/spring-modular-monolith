@@ -173,6 +173,14 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-cache</artifactId>
 		</dependency>
+		<!--<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-security</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.thymeleaf.extras</groupId>
+			<artifactId>thymeleaf-extras-springsecurity6</artifactId>
+		</dependency>-->
 
 		<!-- Added dependency end -->
 
@@ -212,6 +220,13 @@
             <artifactId>rabbitmq</artifactId>
             <scope>test</scope>
         </dependency>
+		<!-- Added dependency start -->
+		<!--<dependency>
+			<groupId>org.springframework.security</groupId>
+			<artifactId>spring-security-test</artifactId>
+			<scope>test</scope>
+		</dependency>-->
+		<!-- Added dependency end -->
     </dependencies>
 
     <repositories>
